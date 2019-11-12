@@ -1,0 +1,49 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body {
+	font-family: 'Poppins', sans-serif;
+}
+button {
+	font-family: 'Poppins', sans-serif;
+}
+
+header {
+    width: 80%;
+    height: 10vh;
+    display: flex;
+    margin: auto;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.logo-container{
+    flex: 1;
+    display: flex;
+}
+
+nav{
+    flex: 4;
+}
+
+.nav-links{
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    list-style: none;
+}
+
+.nav-link{
+    text-decoration: none;
+    color: #5f5f79;
+    font-size: 18px;
+}
+
+@media screen and (max-width:1280px){
+    nav{
+        flex: 3;
+    }
+}
