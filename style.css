@@ -23,6 +23,17 @@ header {
 .logo-container{
     flex: 1;
     display: flex;
+    align-items: center;
+}
+
+.logo{
+    height: 6vh;
+}
+
+.logo-name{
+    margin-left: 10px;
+    font-size: 18px;
+    text-decoration: none;
 }
 
 nav{
