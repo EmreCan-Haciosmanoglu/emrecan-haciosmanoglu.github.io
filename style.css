@@ -93,6 +93,7 @@ main{
 .project-nav-container .projects {
     display: flex;
     height: 5vh;
+    align-items: center;
 }
 .project-nav-container .projects:hover{
     transform-origin: right;
@@ -107,7 +108,7 @@ main{
 
 .project-nav-container .projects svg{
     min-width: 24px;
-    transform: scale(2) translateX(-25%);
+    transform: scale(2) translateX(-25%) translateY(-25%);
     transform-origin: top left;
 }
 .project-nav-container .projects svg .HeadCrush{
