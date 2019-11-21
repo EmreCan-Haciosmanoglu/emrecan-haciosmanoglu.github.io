@@ -1,0 +1,82 @@
+.container{
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 5%;
+}
+
+.about-me {
+    display: flex;
+    height: 350px;
+    margin-bottom: 50px;
+    align-items: center;
+}
+.about-me .detail{
+    width: 70%;
+}
+.about-me .profile-picture{
+    background-color: cadetblue;
+    margin:auto;
+    height: inherit;
+}
+
+.schools{
+    display: flex;
+    height: 350px;
+    margin-bottom: 50px;
+    align-items: center;
+}
+.schools .img-container{
+    display: flex;
+    width: 30%;
+    margin:auto;
+    height: 100%;
+    align-items: center;
+}
+.schools .img-container .school-picture{
+    background-color: chartreuse;
+    width: 90%;
+}
+.schools .detail{
+    width: 70%;
+}
+
+.projects{
+    display: flex;
+    height: 350px;
+    margin-bottom: 50px;
+    align-items: center;
+}
+.projects .detail{
+    width: 70%;
+}
+.projects .img-container{
+    display: flex;
+    width: 30%;
+    margin:auto;
+    height: 100%;
+    align-items: center;
+}
+.projects .img-container .project-picture{
+    background-color: chocolate;
+    width: 90%;
+}
+
+.tools{
+    display: flex;
+    height: 350px;
+    align-items: center;
+}
+.tools .img-container{
+    display: flex;
+    width: 30%;
+    margin:auto;
+    height: 100%;
+    align-items: center;
+}
+.tools .img-container .tool-picture{
+    background-color: darkgray;
+    width: 90%;
+}
+.tools .detail{
+    width: 70%;
+}
