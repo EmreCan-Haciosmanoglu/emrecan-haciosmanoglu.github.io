@@ -1,0 +1,50 @@
+*,::after,::before {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background:radial-gradient(ellipse at center, rgba(255,255,255,1) 0%, rgba(230,255,255,1) 100%)
+}
+button {
+	font-family: 'Poppins', sans-serif;
+}header {
+    width: 80%;
+    height: 10vh;
+    display: flex;
+    margin: auto;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.author-container{
+    flex: 3;
+    display: flex;
+    align-items: center;
+}
+
+
+.author-name{
+    margin-left: 10px;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+nav{
+    flex: 2;
+}
+
+.nav-links{
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    list-style: none;
+}
+
+.nav-link{
+    text-decoration: none;
+    color: #5f5f79;
+    font-size: 18px;
+}
