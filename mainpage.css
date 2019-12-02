@@ -12,9 +12,10 @@
 }
 .about-me .detail{
     width: 70%;
+    font-size: 1.2rem;
+    padding: 0 2% 0 2%;
 }
 .about-me .profile-picture{
-    background-color: cadetblue;
     margin:auto;
     height: inherit;
 }
@@ -32,12 +33,18 @@
     height: 100%;
     align-items: center;
 }
-.schools .img-container .school-picture{
-    background-color: chartreuse;
-    width: 90%;
+.schools .img-container .images{
+    display: inline-block;
+    width: 80%;
+    height: 75%;
+}
+.schools .img-container .images .school-picture{
+    height: 100%;
 }
 .schools .detail{
     width: 70%;
+    font-size: 1.2rem;
+    padding: 0 2% 0 2%;
 }
 
 .projects{
@@ -48,6 +55,8 @@
 }
 .projects .detail{
     width: 70%;
+    font-size: 1.2rem;
+    padding: 0 2% 0 2%;
 }
 .projects .img-container{
     display: flex;
@@ -56,9 +65,12 @@
     height: 100%;
     align-items: center;
 }
-.projects .img-container .project-picture{
-    background-color: chocolate;
-    width: 90%;
+.projects .img-container .images{
+    width: 80%;
+    height: 75%;
+}
+.projects .img-container .images .project-picture{
+    height: 100%;
 }
 
 .tools{
@@ -73,10 +85,15 @@
     height: 100%;
     align-items: center;
 }
-.tools .img-container .tool-picture{
-    background-color: darkgray;
-    width: 90%;
+.tools .img-container .images{
+    width: 80%;
+    height: 75%;
+}
+.tools .img-container .images .tool-picture{
+    height: 100%;
 }
 .tools .detail{
     width: 70%;
+    font-size: 1.2rem;
+    padding: 0 2% 0 2%;
 }
