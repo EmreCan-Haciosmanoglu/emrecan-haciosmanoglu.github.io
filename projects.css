@@ -58,8 +58,17 @@ main{
     transform: scale(2) translateX(-25%) translateY(-25%);
     transform-origin: top left;
 }
-.project-nav-container .projects svg .HeadCrush{
+.project-nav-container .projects svg .Can{
     fill: lightgray;
+}
+.project-nav-container .projects svg .HeadCrush{
+    fill: gray;
+}
+.project-nav-container .projects svg .YARCL{
+    fill: gray;
+}
+.project-nav-container .projects svg .DuelTime{
+    fill: gray;
 }
 
 #name{
