@@ -1,0 +1,99 @@
+.container{
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 5%;
+}
+
+.about-me {
+    display: flex;
+    height: 350px;
+    margin-bottom: 50px;
+    align-items: center;
+}
+.about-me .detail{
+    width: 70%;
+    font-size: 1.2rem;
+    padding: 0 2% 0 2%;
+}
+.about-me .profile-picture{
+    margin:auto;
+    height: inherit;
+}
+
+.schools{
+    display: flex;
+    height: 350px;
+    margin-bottom: 50px;
+    align-items: center;
+}
+.schools .img-container{
+    display: flex;
+    width: 30%;
+    margin:auto;
+    height: 100%;
+    align-items: center;
+}
+.schools .img-container .images{
+    display: inline-block;
+    width: 80%;
+    height: 75%;
+}
+.schools .img-container .images .school-picture{
+    height: 100%;
+}
+.schools .detail{
+    width: 70%;
+    font-size: 1.2rem;
+    padding: 0 2% 0 2%;
+}
+
+.projects{
+    display: flex;
+    height: 350px;
+    margin-bottom: 50px;
+    align-items: center;
+}
+.projects .detail{
+    width: 70%;
+    font-size: 1.2rem;
+    padding: 0 2% 0 2%;
+}
+.projects .img-container{
+    display: flex;
+    width: 30%;
+    margin:auto;
+    height: 100%;
+    align-items: center;
+}
+.projects .img-container .images{
+    width: 80%;
+    height: 75%;
+}
+.projects .img-container .images .project-picture{
+    height: 100%;
+}
+
+.tools{
+    display: flex;
+    height: 350px;
+    align-items: center;
+}
+.tools .img-container{
+    display: flex;
+    width: 30%;
+    margin:auto;
+    height: 100%;
+    align-items: center;
+}
+.tools .img-container .images{
+    width: 80%;
+    height: 75%;
+}
+.tools .img-container .images .tool-picture{
+    height: 100%;
+}
+.tools .detail{
+    width: 70%;
+    font-size: 1.2rem;
+    padding: 0 2% 0 2%;
+}

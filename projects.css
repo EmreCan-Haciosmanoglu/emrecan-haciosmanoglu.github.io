@@ -1,56 +1,3 @@
-* {
-    padding: 0px;
-    margin: 0px;
-    box-sizing: border-box;
-}
-
-body {
-    font-family: 'Poppins', sans-serif;
-    background:radial-gradient(ellipse at center, rgba(255,255,255,1) 0%, rgba(230,255,255,1) 100%)
-}
-button {
-	font-family: 'Poppins', sans-serif;
-}
-
-header {
-    width: 80%;
-    height: 10vh;
-    display: flex;
-    margin: auto;
-    justify-content: space-around;
-    align-items: center;
-}
-
-.author-container{
-    flex: 3;
-    display: flex;
-    align-items: center;
-}
-
-
-.author-name{
-    margin-left: 10px;
-    font-size: 18px;
-    text-decoration: none;
-}
-
-nav{
-    flex: 2;
-}
-
-.nav-links{
-    display: flex;
-    justify-content: space-around;
-    align-content: center;
-    list-style: none;
-}
-
-.nav-link{
-    text-decoration: none;
-    color: #5f5f79;
-    font-size: 18px;
-}
-
 main{
     height: 70vh;
     width: 80%;
@@ -93,6 +40,7 @@ main{
 .project-nav-container .projects {
     display: flex;
     height: 5vh;
+    align-items: center;
 }
 .project-nav-container .projects:hover{
     transform-origin: right;
@@ -107,11 +55,20 @@ main{
 
 .project-nav-container .projects svg{
     min-width: 24px;
-    transform: scale(2) translateX(-25%);
+    transform: scale(2) translateX(-25%) translateY(-25%);
     transform-origin: top left;
 }
-.project-nav-container .projects svg .HeadCrush{
+.project-nav-container .projects svg .Can{
     fill: lightgray;
+}
+.project-nav-container .projects svg .HeadCrush{
+    fill: gray;
+}
+.project-nav-container .projects svg .YARCL{
+    fill: gray;
+}
+.project-nav-container .projects svg .DuelTime{
+    fill: gray;
 }
 
 #name{
